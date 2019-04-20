@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2ED2F7D7-7794-4646-9364-A81498854023}</ProjectGuid>
+    <ProjectGuid>{FF64D634-82B5-406C-8512-F5227D576846}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>PX01</RootNamespace>
+    <RootNamespace>ProjectX01</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
